@@ -210,6 +210,7 @@ pre {
 
 <section class='container'>
           <hgroup>
+            <h1>Deployment from UCD Succeeded!!!!</h1>
             <h1>Welcome to your CakePHP application on OpenShift</h1>
           </hgroup>
 
@@ -326,11 +327,11 @@ oc deploy cakephp-mysql-example --latest
                         try {
                           $connection->execute('create table view_counter (c integer)');
                         } catch (Exception $e) {
-                        	$tableExisted=1;
+                            $tableExisted=1;
                         }
                         try {
                             if ($tableExisted==0) {
-                            	$connection->execute('insert into view_counter values(1)');
+                                $connection->execute('insert into view_counter values(1)');
                             } else {
                                 $connection->execute('update view_counter set c=c+1');
                             }
