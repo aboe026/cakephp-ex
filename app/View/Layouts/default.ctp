@@ -210,7 +210,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Deployment from UCD Succeeded!!!!</h1>
+            <h1>Deployment from UCD Succeeded!</h1>
             <h1>Welcome to your CakePHP application on OpenShift</h1>
           </hgroup>
 
